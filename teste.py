@@ -7,7 +7,9 @@ from facebook_business.adobjects.adsinsights import AdsInsights
 from facebook_business.adobjects.adreportrun import AdReportRun
 import json;
 import time
-FacebookAdsApi.init(access_token='EAALdEhJRaNcBAAIfEz9w1MGp0ZA1P6f6GPFAKwXyknOg3Vk7h8WGwIBINlRw2Pg9u0hxFZClZBvlWJZBfT8WNXC2ZBroBk0CkcVr9KHIFA6Gv2MdWValCRCvxxVsnmjvZACMasuwGDAf3fBLpbV5WGnRjiRMi0yrYOK2CrJZCAytS4AQGcwOTEEUMWfOkGHR5YZD')
+import env
+print(env.token())
+FacebookAdsApi.init(access_token=env.token())
 me = AdAccountUser(fbid='me')
 ad_accounts = me.get_ad_accounts()
 # print(ad_accounts)
@@ -51,7 +53,8 @@ result =  ad_accounts[1].get_insights(params={'time_range': {
                                            AdsInsights.Field.outbound_clicks,
                                            AdsInsights.Field.spend
                                           ])
-print (result)
-with open('data.json', 'w', encoding='utf-8') as f:
-    json.dump(result[0], f, ensure_ascii=False, indent=4)
+print (str(result))
+# with open('data.json', 'w', encoding='utf-8') as f:
+#     json.dump(json.loads(str(result)), f, ensure_ascii=False, indent=4)
 
+# print(json.loads(str(result)))
