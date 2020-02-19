@@ -1,0 +1,102 @@
+[
+    {
+        "account_id": "885505028540909",
+        "account_name": "Investimentos Digitais",
+        "ad_id": "23844251083020388",
+        "ad_name": "Teste Editando Afiliado",
+        "adset_id": "23844251082950388",
+        "adset_name": "BR - 18+",
+        "campaign_id": "23844251082920388",
+        "campaign_name": "Editando o Afiliado",
+        "cost_per_outbound_click": [
+            {
+                "action_type": "outbound_click",
+                "value": "0.52"
+            }
+        ],
+        "outbound_clicks": [
+            {
+                "action_type": "outbound_click",
+                "value": "1"
+            }
+        ],
+        "spend": "0.52",
+        "date_start": "2020-01-17",
+        "date_stop": "2020-01-17"
+    },
+    {
+        "account_id": "885505028540909",
+        "account_name": "Investimentos Digitais",
+        "ad_id": "23844251083020388",
+        "ad_name": "Teste Editando Afiliado",
+        "adset_id": "23844251082950388",
+        "adset_name": "BR - 18+",
+        "campaign_id": "23844251082920388",
+        "campaign_name": "Editando o Afiliado",
+        "cost_per_outbound_click": [
+            {
+                "action_type": "outbound_click",
+                "value": "2.664545"
+            }
+        ],
+        "outbound_clicks": [
+            {
+                "action_type": "outbound_click",
+                "value": "11"
+            }
+        ],
+        "spend": "29.31",
+        "date_start": "2020-01-18",
+        "date_stop": "2020-01-18"
+    },
+    {
+        "account_id": "885505028540909",
+        "account_name": "Investimentos Digitais",
+        "ad_id": "23844264915020388",
+        "ad_name": "Default name - Tráfego",
+        "adset_id": "23844264914860388",
+        "adset_name": "BR - 18+ - LookAlike",
+        "campaign_id": "23844264914730388",
+        "campaign_name": "Tráfego",
+        "cost_per_outbound_click": [
+            {
+                "action_type": "outbound_click",
+                "value": "1.7975"
+            }
+        ],
+        "outbound_clicks": [
+            {
+                "action_type": "outbound_click",
+                "value": "4"
+            }
+        ],
+        "spend": "7.19",
+        "date_start": "2020-01-22",
+        "date_stop": "2020-01-22"
+    },
+    {
+        "account_id": "885505028540909",
+        "account_name": "Investimentos Digitais",
+        "ad_id": "23844264955950388",
+        "ad_name": "Default name - Tráfego",
+        "adset_id": "23844264955960388",
+        "adset_name": "BR - 18+ - LookAlike — Cópia",
+        "campaign_id": "23844264914730388",
+        "campaign_name": "Tráfego",
+        "cost_per_outbound_click": [
+            {
+                "action_type": "outbound_click",
+                "value": "1.59"
+            }
+        ],
+        "outbound_clicks": [
+            {
+                "action_type": "outbound_click",
+                "value": "4"
+            }
+        ],
+        "spend": "6.36",
+        "date_start": "2020-01-22",
+        "date_stop": "2020-01-22"
+    }
+]

@@ -53,8 +53,14 @@ result =  ad_accounts[1].get_insights(params={'time_range': {
                                            AdsInsights.Field.outbound_clicks,
                                            AdsInsights.Field.spend
                                           ])
-print (str(result))
-# with open('data.json', 'w', encoding='utf-8') as f:
-#     json.dump(json.loads(str(result)), f, ensure_ascii=False, indent=4)
+print (result)
+list = []
+for item in result:
+  data = dict(item)
+  list.append(data)
+  app_json = json.dumps(list)
+  with open('data.json', 'w+', encoding='utf-8') as f:
+    json.dump(json.loads(app_json), f, ensure_ascii=False, indent=4)
+
 
 # print(json.loads(str(result)))
